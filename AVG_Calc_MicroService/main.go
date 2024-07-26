@@ -20,6 +20,7 @@ var (
 )
 
 // Since authorization token is not workig, I have removed it from the code.
+//Authorization key seems to be invalid
 func fetchNumbers(numberID string) ([]int, error) {
 	mockData := map[string][]int{
 		"p": {2, 3, 5, 7, 11},    // Prime numbers
